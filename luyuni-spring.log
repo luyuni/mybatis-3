@@ -1,0 +1,14 @@
+2020-09-14 14:34:52,756 DEBUG [main] {org.apache.ibatis.logging.LogFactory}-Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-09-14 14:34:53,020 DEBUG [main] {org.apache.ibatis.datasource.pooled.PooledDataSource}-PooledDataSource forcefully closed/removed all connections.
+2020-09-14 14:34:53,021 DEBUG [main] {org.apache.ibatis.datasource.pooled.PooledDataSource}-PooledDataSource forcefully closed/removed all connections.
+2020-09-14 14:34:53,021 DEBUG [main] {org.apache.ibatis.datasource.pooled.PooledDataSource}-PooledDataSource forcefully closed/removed all connections.
+2020-09-14 14:34:53,021 DEBUG [main] {org.apache.ibatis.datasource.pooled.PooledDataSource}-PooledDataSource forcefully closed/removed all connections.
+2020-09-14 14:34:53,190 DEBUG [main] {org.apache.ibatis.transaction.jdbc.JdbcTransaction}-Opening JDBC Connection
+2020-09-14 14:34:56,781 DEBUG [main] {org.apache.ibatis.datasource.pooled.PooledDataSource}-Created connection 2131960182.
+2020-09-14 14:34:56,782 DEBUG [main] {org.apache.ibatis.transaction.jdbc.JdbcTransaction}-Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7f132176]
+2020-09-14 14:34:56,785 DEBUG [main] {top.luyuni.mybatis.dao.UserMapper.findByName}-==>  Preparing: SELECT * FROM user WHERE name = ? 
+2020-09-14 14:34:56,833 DEBUG [main] {top.luyuni.mybatis.dao.UserMapper.findByName}-==> Parameters: Jone(String)
+2020-09-14 14:34:56,861 DEBUG [main] {top.luyuni.mybatis.dao.UserMapper.findByName}-<==      Total: 1
+2020-09-14 14:34:56,863 DEBUG [main] {org.apache.ibatis.transaction.jdbc.JdbcTransaction}-Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@7f132176]
+2020-09-14 14:34:56,865 DEBUG [main] {org.apache.ibatis.transaction.jdbc.JdbcTransaction}-Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@7f132176]
+2020-09-14 14:34:56,865 DEBUG [main] {org.apache.ibatis.datasource.pooled.PooledDataSource}-Returned connection 2131960182 to pool.
